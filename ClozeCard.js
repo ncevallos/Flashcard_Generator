@@ -22,10 +22,4 @@ function ClozeCard(text, cloze){
 
 module.exports = ClozeCard;
 
-var firstPresidentCloze = new ClozeCard(
-    "George Washington was the first president of the United States.", "George Washington");
 
-var firstPresidentCloze = ClozeCard(
-    "George Washington was the first president of the United States.", "George Washington");
-// Should throw or log an error because "oops" doesn't appear in "This doesn't work"
-var brokenCloze = new ClozeCard("This doesn't work", "oops");
